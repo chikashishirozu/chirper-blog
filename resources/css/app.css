@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* resources/css/app.css または 他の適切な CSS ファイル */
+.input-field {
+    height: 3rem; /* 元の高さの2倍 */
+    resize: vertical; /* ユーザーが高さを変更できるようにする */
+}
+
+/* resources/css/app.css または 他の適切な CSS ファイル */
+.textarea-field {
+    height: 10rem; /* 元の高さの2倍 */
+    resize: vertical; /* ユーザーが高さを変更できるようにする */
+}
+
+/* resources/css/app.css または 他の適切な CSS ファイル */
+.textarea-field-e {
+    height: 20rem; /* 元の高さの2倍 */
+    resize: vertical; /* ユーザーが高さを変更できるようにする */
+}
